@@ -18,4 +18,4 @@ Docker and Docker Compose must be installed on the system. Depending on the Linu
 
 Go to the directory where you want to install full-sonarr-docker project:
 
-    git clone https://
+    git clone https://github.com/egara/full-sonarr-docker.git
