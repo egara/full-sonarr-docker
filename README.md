@@ -22,8 +22,8 @@ Go to the directory where you want to install full-sonarr-docker project:
     
 ## Prepare the directories ##
 
-- _config_ directory will contain all the Sonarr configuration files.
-- _tvshows_ directory will contain all the tv show's stuff downloaded and managed by the application. This directory will be used for transmission to store the files it downloads. Before starting dockers, it could be a good idea to change permissions in this directory in order to avoid problems with Sonarr:
+- **config** directory will contain all the Sonarr configuration files.
+- **tvshows** directory will contain all the tv show's stuff downloaded and managed by the application. This directory will be used for transmission to store the files it downloads. Before starting dockers, it could be a good idea to change permissions in this directory in order to avoid problems with Sonarr:
 
 
     cd full-sonar-docker
@@ -31,7 +31,7 @@ Go to the directory where you want to install full-sonarr-docker project:
 
 ## Docker compose configuration ##
 
-If you want to configure the system that is going to started up, please edit _docker-compose.yml_ which is in _full-sonar-docker_ directory. Some tips:
+If you want to configure the system that is going to started up, please edit **docker-compose.yml** which is in **full-sonar-docker** directory. Some tips:
 
 - Ports exposed to the host: 8989 (Sonarr) and 9091 (Transmission)
 - The PGID and PUID values set the user / group you'd like your container to 'run as' to the host OS. This can be a user you've created or even root (not recommended).
@@ -50,4 +50,4 @@ If you want to configure the system that is going to started up, please edit _do
 When Sonarr starts for the first time, it is necessary to set up the configuration.
 
 - Go to Settings -> Indexer -> Add a new one (for example, KickassTorrents).
-- Go to Settings -> Download Client -> Add a new one (Transmission). Fill the form. It is important that you type _transmission_ in _Host_, _9091_ in _Port_ and use the credentials for transmission (admin, admin as I mentioned above). That's all. After that, add any tv show you want.
+- Go to Settings -> Download Client -> Add a new one (Transmission). Fill the form. It is important that you type **transmission** in **Host**, **9091** in **Port** and use the credentials for transmission (admin, admin as I mentioned above). That's all. After that, add any tv show you want.
