@@ -51,3 +51,9 @@ When Sonarr starts for the first time, it is necessary to set up the configurati
 
 - Go to Settings -> Indexer -> Add a new one (for example, KickassTorrents).
 - Go to Settings -> Download Client -> Add a new one (Transmission). Fill the form. It is important that you type **transmission** in **Host**, **9091** in **Port** and use the credentials for transmission (admin, admin as I mentioned above). That's all. After that, add any tv show you want.
+
+## Credits ##
+All the credits to the authors of these two great images. I only put them all together :)
+
+- [linuxserver/sonarr](https://github.com/linuxserver/docker-sonarr)
+- [dperson/transmission](https://hub.docker.com/r/dperson/transmission/)
