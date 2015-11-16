@@ -3,7 +3,7 @@ It is a containerized system using docker in order to run Sonarr. Sonarr, by def
 
 # What is Sonarr? ##
 
-[Sonarr](https://sonarr.tv/) is a tv series management tool which will allow to not only download shows, but maintain them after it. It supports [NZBGet](nzbget.net) and [Sabnzbd](sabnzbd.org)
+[Sonarr](https://sonarr.tv/) is a tv series management tool which will allow to not only download shows, but maintain them after it. It supports [NZBGet](nzbget.net) and [Sabnzbd](sabnzbd.org) and even torrent.
 
 # Deployment instructions #
 
