@@ -27,6 +27,7 @@ Go to the directory where you want to install full-sonarr-docker project:
 
 
       cd full-sonar-docker
+      
       sudo chmod 777 -R ./tvshows
 
 ## Docker compose configuration ##
