@@ -9,7 +9,7 @@ It is a containerized system using docker in order to run Sonarr. Sonarr, by def
 
 ## Docker and Docker Compose ##
 
-Docker and Docker Compose must be installed on the system. Depending on the Linux Distribution, the installation process is different (example for Arch):
+Docker and Docker Compose must be installed on the system. Depending on the Linux distribution, the installation process is different (example for Arch):
 
     sudo pacman -S docker
     yaourt -S docker-compose
@@ -53,6 +53,19 @@ When Sonarr starts for the first time, it is necessary to set up the configurati
 - Go to Settings -> Indexer -> Add a new one (for example, KickassTorrents).
 - Go to Settings -> Download Client -> Add a new one (Transmission). Fill the form. It is important that you type **transmission** in **Host**, **9091** in **Port** and use the credentials for transmission (admin, admin as I mentioned above). That's all. After that, add any tv show you want.
 
+## Stop docker containers ##
+The first time, you only need to do **Ctrl + C**
+
+## Restart/stop docker containers after the first time ##
+When you want to restart all the containers:
+
+    cd <full-path>/full-sonarr-docker
+    sudo docker-compose start
+    
+And to stop them:
+
+    sudo docker-compose stop
+    
 ## Credits ##
 All the credits to the authors of these two great images. I only put them all together :)
 
