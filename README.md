@@ -42,7 +42,7 @@ If you want to configure the system that is going to started up, please edit **d
     cd full-sonar-docker
     sudo docker-compose up
     
-## Login to the applications ##
+## Log into the applications ##
 
 - To access Sonarr, go to your browser and type localhost:8989
 - To access Transmission, go to your browser and type localhost:9091 (User: admin)(Password: admin)
