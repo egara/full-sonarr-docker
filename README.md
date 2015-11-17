@@ -25,10 +25,8 @@ Go to the directory where you want to install full-sonarr-docker project:
 - **config** directory will contain all the Sonarr configuration files.
 - **tvshows** directory will contain all the tv show's stuff downloaded and managed by the application. This directory will be used for transmission to store the files it downloads. Before starting dockers, it could be a good idea to change permissions in this directory in order to avoid problems with Sonarr:
 
-
     cd full-sonar-docker
     sudo chmod 777 -R ./tvshows
-
 
 ## Docker compose configuration ##
 
